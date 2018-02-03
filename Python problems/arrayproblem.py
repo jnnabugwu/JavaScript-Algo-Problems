@@ -44,12 +44,12 @@ class Node:
             if abs(leaf[i] - leaf[i-1]) > difference:
                 difference = abs(leaf[i] - leaf[i-1])
         return difference < 2
-
+# write an algorithm 
             
 
 
 seed = Node(0)
-seed.insertarray([1,2,3,4,5,6,7])
+seed.insertarray([1,2,3,4,5,6,7]) 
 print(seed.balanced())
 
 

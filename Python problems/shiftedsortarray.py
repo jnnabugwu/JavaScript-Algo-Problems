@@ -23,6 +23,7 @@ def findpivot(array):#0(N)
         if array[i-1] > array[i]:
             return i-1
 # print(shiftsortarray([12,16,17,1,4,8,9,11],0))
+ www.learn4master.com/interview-questions/leetcode/leetcode-problems-classified-by-company
 # print(shiftsortarray([12,16,17,1,4,8,9,11],1))
 #Merge two lists O(N+M) ;N = the number of elements in first array, M = number of elements in second array
 def merge2lists(array,array2):
